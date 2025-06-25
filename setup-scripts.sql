@@ -5,6 +5,7 @@ use role accountadmin;
 create role snowflake_intelligence_admin_rl;
 create role snowflake_intelligence_modeling_rl;
 grant role snowflake_intelligence_modeling_rl to role snowflake_intelligence_admin_rl;
+grant role snowflake_intelligence_admin_rl to role accountadmin;
 
 
 create role snowflake_intelligence_ro_rl;
